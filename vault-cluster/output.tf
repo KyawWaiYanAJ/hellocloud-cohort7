@@ -1,6 +1,6 @@
 output "hvn_id" {
   description = "HCP HVN ID"
-  value = hcp_hvn.vault_hvm
+  value = hcp_hvn.vault_hvn
 }
 output "vault_id" {
   description = "HCP Vault Cluster ID"
@@ -8,7 +8,7 @@ output "vault_id" {
 }
 output "vault_namespace" {
   description = "HCP Vault Cluster Namespace"
-  value = hcp_vault_cluster.vault_cluster.namespace
+  value = hcp_vault_cluster.vault_cluser.namespace
 }
 output "vault_public_endpoint_url" {
   description = "HCP Vault Cluster vault_public endpoint_url"
