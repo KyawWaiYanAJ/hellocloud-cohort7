@@ -11,6 +11,6 @@ resource "hcp_vault_cluster" "vault_cluser" {
   tier       = var.tier
   public_endpoint = var.public_endpoint
   lifecycle {
-    prevent_destroy = var.prevent_destroy
+    prevent_destroy = false
   }
 }

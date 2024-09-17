@@ -32,9 +32,3 @@ variable "public_endpoint" {
   description = "Public Endpoint status of Vault Cluster"
   default = true
 }
-
-variable "prevent_destroy" {
-  type = bool
-  description = "Prevent from Acedential Deletion"
-  default = false
-}
