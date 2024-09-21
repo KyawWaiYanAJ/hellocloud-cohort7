@@ -1,4 +1,4 @@
-resource "vault_jwt_auth_backend" "example" {
+resource "vault_jwt_auth_backend" "tfc_jwt" {
     description         = "Demonstration of the Terraform JWT auth backend"
     path                = "jwt"
     oidc_discovery_url  = "https://app.terraform.io"
